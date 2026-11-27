@@ -35,6 +35,8 @@
    ```
 4. 下载完成后，在下方「模块」列表中点击 **`G1 ACQ Plus`**，确认其右侧出现 **蓝色 `✓`**（代表已启用）。
 
+<img src="./images/01-module-enabled.jpg" width="280" alt="Shadowrocket 模块已启用" />
+
 ---
 
 ## 二、开启 HTTPS 解密（MITM）并安装信任证书
@@ -54,6 +56,11 @@
    - 确认证书页面下方已变为 **「已被系统信任」**，点击右上角 **`✓`**。
    - 确认上一页「HTTPS 解密」开关为开启状态，再点击右上角 **`✓`** 保存配置。
 
+<p>
+  <img src="./images/02-config-select.jpg" width="260" alt="选择当前生效的配置文件" />
+  <img src="./images/03-https-cert.jpg" width="260" alt="生成并安装 Shadowrocket CA 证书" />
+</p>
+
 ---
 
 ## 三、开启代理并验证脚本接管成功
@@ -71,6 +78,11 @@
    - 确认第一个模板 **`[存活·默认启用] 0.05折 / $0.29 / 1元开 Pro 5TB（前三月 99% OFF）`** 上方已显示绿色的 **`当前规则一致`**。
    - 该模板已默认启用，**无需额外点击「应用模板」**，直接进入下一步即可。
 
+<p>
+  <img src="./images/04-script-active.jpg" width="260" alt="Safari 显示本机脚本已接管" />
+  <img src="./images/05-default-template.jpg" width="260" alt="默认启用的 0.05 折模板" />
+</p>
+
 ---
 
 ## 四、在 Google App 中拉起优惠并订阅
@@ -78,6 +90,8 @@
 1. 打开 **Google App**（彩色 G 图标），登录你准备好的目标 **Google 账号**。
 2. 点击右上角**头像** → 点击 **「Google One」**（或存储空间 / 升级方案）。
 3. 进入方案列表后**一直往下滑**，展开底部的 **「查看 Google AI 方案」**。
+
+<img src="./images/06-google-one-plans.jpg" width="280" alt="Google One 方案页下滑展开 Google AI 方案" />
 4. 找到 **Ultra (20TB)**，点击它下方的 **「开始使用」**。
    - **为什么点 20TB？** 默认模板借用了 `20TB` 按钮的槽位来触发隐藏 SKU，避免与原 Pro 槽位冲突；**最终订阅到手的仍然是 Google AI Pro（5TB），不是 20TB Ultra**。
    - **备选方案**：如果方案页里找不到 20TB 选项，切回 Safari 控制台点击第二个模板 **`[存活·备选入口] 改 2TB AI 月付槽位`** 的 **「应用模板」**，然后把 Google App 从后台彻底划掉重开，重新进入升级页并在「按月」中直接点 **Google AI Pro (5TB)**。
