@@ -17,6 +17,10 @@
 | 5 | **Google App（彩色 G 图标）** | 在 App Store 下载安装官方 **Google** App（注意是「Google」，不是 Chrome）。 |
 | 6 | **目标 Google 账号** | 你打算开通 Google AI Pro 会员的 Google 账号（归属地不在受限地区即可）。 |
 
+> **关于外区 Apple ID 支付 / 充值方式（二选一即可）**：
+> 1. **礼品卡充值（推荐，门槛最低）**：打开 **支付宝** 搜索 **`nediya`**，购买对应外区最低额度的 Apple 礼品卡并兑换到外区 Apple ID 余额中即可。
+> 2. **国际虚拟信用卡**：也可以前往 **Bybit Global** 申请一张国际虚拟信用卡绑定到外区 Apple ID 使用：[点击通过邀请链接注册 Bybit Global](https://www.bybitglobal.com/invite?ref=KE3W6A2&medium=referral&utm_campaign=evergreen)（详细开卡与充值步骤见：[Bybit Card 虚拟信用卡申请教程](./bybit-card-tutorial.md)）。
+
 > **关于「三者区域是否要一致」的说明**：
 > **Apple ID 地区、Google 账号归属地、代理节点地区不需要严格同区**，只要三者都避开不支持 Gemini 的地区即可：
 > - **Apple ID 地区**：决定最终扣款币种和折扣价格（例如澳区扣澳元、美区扣美元）。
@@ -91,7 +95,8 @@
 2. 点击右上角**头像** → 点击 **「Google One」**（或存储空间 / 升级方案）。
 3. 进入方案列表后**一直往下滑**，展开底部的 **「查看 Google AI 方案」**。
 
-<img src="./images/06-google-one-plans.jpg" width="280" alt="Google One 方案页下滑展开 Google AI 方案" />
+   <img src="./images/06-google-one-plans.jpg" width="280" alt="Google One 方案页下滑展开 Google AI 方案" />
+
 4. 找到 **Ultra (20TB)**，点击它下方的 **「开始使用」**。
    - **为什么点 20TB？** 默认模板借用了 `20TB` 按钮的槽位来触发隐藏 SKU，避免与原 Pro 槽位冲突；**最终订阅到手的仍然是 Google AI Pro（5TB），不是 20TB Ultra**。
    - **备选方案**：如果方案页里找不到 20TB 选项，切回 Safari 控制台点击第二个模板 **`[存活·备选入口] 改 2TB AI 月付槽位`** 的 **「应用模板」**，然后把 Google App 从后台彻底划掉重开，重新进入升级页并在「按月」中直接点 **Google AI Pro (5TB)**。
@@ -125,3 +130,13 @@
    - 不可以。国区 App Store 未上架 Google App / Google One，也无对应 SKU 定价。但系统 iCloud 可以保持国区，仅在 App Store（媒体与购买项目）中切换外区 Apple ID 即可。
 4. **安全与时效提示**
    - 本方法依赖上游隐藏促销 SKU，官方随时可能下架或调整资格；且模块远程加载第三方脚本，请务必以 App Store 弹窗实付金额为准，用完及时关闭模块与 HTTPS 解密。
+
+---
+
+## 七、微信交流群
+
+使用过程中遇到问题或想交流更多优惠方案，欢迎扫码进群交流：
+
+<!-- 将你的微信群二维码图片保存到 ./images/wechat-group-qr.jpg 后即可显示 -->
+<img src="./images/wechat.jpg" width="240" alt="微信交流群二维码" />
+
