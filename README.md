@@ -2,6 +2,10 @@
 
 > 本文基于开源项目 [`tgai521/g1-acq-plus`](https://github.com/tgai521/g1-acq-plus)（上游 `Dgkncn/g1-acq-plus` / `crhywun/g1-acq`）整理。利用 Shadowrocket 的 HTTPS 解密（MITM）能力改写 `one.google.com` 返回的商品 ID，拉起 App Store 的隐藏优惠 SKU（如前 3 个月 99% OFF / 0.05 折开 Google AI Pro 5TB）。
 
+**实测订阅成功效果：**
+
+<img src="./images/Subscription.jpg" width="280" alt="Google AI Pro 订阅成功效果" />
+
 ---
 
 ## 零、开始前必须准备的东西（缺一不可）
