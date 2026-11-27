@@ -4,7 +4,7 @@
 
 **实测订阅成功效果：**
 
-<img src="./images/Subscription.jpg" width="280" alt="Google AI Pro 订阅成功效果" />
+<img src="./images/Subscription.jpg" width="450" alt="Google AI Pro 订阅成功效果" />
 
 ---
 
